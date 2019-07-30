@@ -10,7 +10,8 @@ export default function favorites(state = INITIAL_STATE, action ) {
                     name: 'facebook/react',
                     description: 'description here',
                     url: 'https://github.com/facebook/react',
-            }];
+            },
+        ];
             default:
                 return state;
     }
